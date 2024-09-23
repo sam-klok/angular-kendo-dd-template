@@ -5,9 +5,13 @@ Angular app with Kendo/telerik dropdown with URL link inside of each item.
 but have access to corporote Artifactiory (JFrog) and NPM do this:
 
 >npm login --registry=https://artifactory.yourcorp.net/blah -auth-type=web
+
 >npm install --registry=https://artifactory.yourcorp.net/blah
+
 >npm run build --registry=https://artifactory.yourcorp.net/blah
+
 >npm start --registry=https://artifactory.yourcorp.net/blah
+
 
 # AngularKendoDdTemplate
 
