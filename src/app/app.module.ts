@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CommonModule } from '@angular/common';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
 import { LabelModule } from "@progress/kendo-angular-label";
 import { InputsModule } from "@progress/kendo-angular-inputs";
 import { ButtonsModule } from "@progress/kendo-angular-buttons";
-import { DropDownsModule } from '@progress/kendo-angular-dropdowns';
-
+import { DropDownsModule } from "@progress/kendo-angular-dropdowns";
 
 
 @NgModule({
@@ -16,6 +16,9 @@ import { DropDownsModule } from '@progress/kendo-angular-dropdowns';
     AppComponent
   ],
   imports: [
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
     BrowserModule,
     InputsModule,
     BrowserAnimationsModule,
