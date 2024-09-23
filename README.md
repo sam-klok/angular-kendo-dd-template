@@ -1,3 +1,17 @@
+Angular app with Kendo/telerik dropdown with URL link inside of each item.
+
+1. This example was provided by kendo support team.
+2. If you need to get library, build and run this applicaiton at corporote environment where you don't have Angular installed, 
+but have access to corporote Artifactiory (JFrog) and NPM do this:
+
+>npm login --registry=https://artifactory.yourcorp.net/blah -auth-type=web
+>npm install --registry=https://artifactory.yourcorp.net/blah
+>npm run build --registry=https://artifactory.yourcorp.net/blah
+>npm start --registry=https://artifactory.yourcorp.net/blah
+
+
+
+
 # AngularKendoDdTemplate
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
