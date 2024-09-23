@@ -9,9 +9,6 @@ but have access to corporote Artifactiory (JFrog) and NPM do this:
 >npm run build --registry=https://artifactory.yourcorp.net/blah
 >npm start --registry=https://artifactory.yourcorp.net/blah
 
-
-
-
 # AngularKendoDdTemplate
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
